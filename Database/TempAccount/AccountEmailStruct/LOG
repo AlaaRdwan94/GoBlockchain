@@ -1,0 +1,100 @@
+=============== Nov 3, 2019 (EET) ===============
+15:12:55.792247 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:12:55.810717 db@open opening
+15:12:55.811543 version@stat F·[] S·0B[] Sc·[]
+15:12:55.825253 db@janitor F·2 G·0
+15:12:55.825298 db@open done T·14.54544ms
+15:12:55.825432 db@close closing
+15:12:55.825605 db@close done T·166.537µs
+=============== Nov 3, 2019 (EET) ===============
+15:12:56.405128 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:12:56.405207 version@stat F·[] S·0B[] Sc·[]
+15:12:56.405217 db@open opening
+15:12:56.405245 journal@recovery F·1
+15:12:56.405779 journal@recovery recovering @1
+15:12:56.412244 memdb@flush created L0@2 N·1 S·173B "hat..com,v1":"hat..com,v1"
+15:12:56.412918 version@stat F·[1] S·173B[173B] Sc·[0.25]
+15:12:56.433494 db@janitor F·3 G·0
+15:12:56.433538 db@open done T·28.313046ms
+15:12:56.433607 db@close closing
+15:12:56.433729 db@close done T·115.519µs
+=============== Nov 3, 2019 (EET) ===============
+15:12:56.713114 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:12:56.713619 version@stat F·[1] S·173B[173B] Sc·[0.25]
+15:12:56.713667 db@open opening
+15:12:56.713809 journal@recovery F·1
+15:12:56.715244 journal@recovery recovering @3
+15:12:56.739586 memdb@flush created L0@5 N·1 S·180B "hat..com,v3":"hat..com,v3"
+15:12:56.740547 version@stat F·[2] S·353B[353B] Sc·[0.50]
+15:12:56.765872 db@janitor F·4 G·0
+15:12:56.765919 db@open done T·52.239038ms
+15:12:56.766002 db@close closing
+15:12:56.766138 db@close done T·127.748µs
+=============== Nov 3, 2019 (EET) ===============
+15:12:57.059645 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:12:57.060022 version@stat F·[2] S·353B[353B] Sc·[0.50]
+15:12:57.060072 db@open opening
+15:12:57.060191 journal@recovery F·1
+15:12:57.060915 journal@recovery recovering @6
+15:12:57.083332 memdb@flush created L0@8 N·1 S·182B "hat..com,v5":"hat..com,v5"
+15:12:57.084257 version@stat F·[3] S·535B[535B] Sc·[0.75]
+15:12:57.126347 db@janitor F·5 G·0
+15:12:57.126383 db@open done T·66.297222ms
+15:12:57.126473 db@close closing
+15:12:57.126552 db@close done T·77.065µs
+=============== Nov 3, 2019 (EET) ===============
+16:14:02.264279 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:14:02.264468 version@stat F·[3] S·535B[535B] Sc·[0.75]
+16:14:02.264500 db@open opening
+16:14:02.264580 journal@recovery F·1
+16:14:02.265202 journal@recovery recovering @9
+16:14:02.277085 memdb@flush created L0@11 N·1 S·176B "web..com,v7":"web..com,v7"
+16:14:02.277771 version@stat F·[4] S·711B[711B] Sc·[1.00]
+16:14:02.306416 db@janitor F·6 G·0
+16:14:02.306453 db@open done T·41.942685ms
+16:14:02.306538 db@close closing
+16:14:02.306642 table@move L0@11 -> L1
+16:14:02.306669 table-move@commit exiting
+16:14:02.306727 db@close done T·186.82µs
+=============== Nov 3, 2019 (EET) ===============
+16:14:02.559467 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:14:02.559718 version@stat F·[4] S·711B[711B] Sc·[1.00]
+16:14:02.559759 db@open opening
+16:14:02.559871 journal@recovery F·1
+16:14:02.560603 journal@recovery recovering @12
+16:14:02.579098 memdb@flush created L0@14 N·1 S·173B "hat..com,v9":"hat..com,v9"
+16:14:02.582827 version@stat F·[5] S·884B[884B] Sc·[1.25]
+16:14:02.612649 db@janitor F·7 G·0
+16:14:02.612684 db@open done T·52.912256ms
+16:14:02.612763 db@close closing
+16:14:02.612777 table@compaction L0·2 -> L1·0 S·346B Q·11
+16:14:02.612802 table@build exiting
+16:14:02.612852 db@close done T·88.044µs
+=============== Nov 3, 2019 (EET) ===============
+16:14:02.905727 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:14:02.906121 version@stat F·[5] S·884B[884B] Sc·[1.25]
+16:14:02.906176 db@open opening
+16:14:02.906309 journal@recovery F·1
+16:14:02.907487 journal@recovery recovering @15
+16:14:02.926485 memdb@flush created L0@17 N·1 S·180B "hat..com,v11":"hat..com,v11"
+16:14:02.927412 version@stat F·[6] S·1KiB[1KiB] Sc·[1.50]
+16:14:02.979850 db@janitor F·8 G·0
+16:14:02.979886 db@open done T·73.696922ms
+16:14:02.979954 table@compaction L0·2 -> L1·0 S·360B Q·12
+16:14:02.979981 table@build exiting
+16:14:02.979955 db@close closing
+16:14:02.980053 db@close done T·95.953µs
+=============== Nov 3, 2019 (EET) ===============
+16:14:03.274643 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:14:03.274975 version@stat F·[6] S·1KiB[1KiB] Sc·[1.50]
+16:14:03.275024 db@open opening
+16:14:03.275164 journal@recovery F·1
+16:14:03.275871 journal@recovery recovering @18
+16:14:03.297168 memdb@flush created L0@20 N·1 S·182B "hat..com,v13":"hat..com,v13"
+16:14:03.298687 version@stat F·[7] S·1KiB[1KiB] Sc·[1.75]
+16:14:03.327582 db@janitor F·9 G·0
+16:14:03.327640 db@open done T·52.602311ms
+16:14:03.327742 table@compaction L0·2 -> L1·0 S·364B Q·14
+16:14:03.327747 db@close closing
+16:14:03.327775 table@build exiting
+16:14:03.327861 db@close done T·110.724µs
